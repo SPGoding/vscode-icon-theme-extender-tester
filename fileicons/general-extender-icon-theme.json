@@ -1,10 +1,14 @@
 {
     "iconDefinitions": {
         "_file_general": {
-            "iconPath": "./icon.svg"
+            "iconPath": "./icon_g.svg"
+        },
+        "_file_conflict": {
+            "iconPath": "./icon_r.svg"
         }
     },
     "fileExtensions": {
-        "general": "_file_general"
+        "general": "_file_general",
+        "conflict": "_file_conflict"
     }
 }

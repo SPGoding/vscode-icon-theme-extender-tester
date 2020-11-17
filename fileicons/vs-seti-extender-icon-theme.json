@@ -1,10 +1,14 @@
 {
     "iconDefinitions": {
         "_file_vs-seti": {
-            "iconPath": "./icon.svg"
+            "iconPath": "./icon_g.svg"
+        },
+        "_file_conflict": {
+            "iconPath": "./icon_g.svg"
         }
     },
     "fileExtensions": {
-        "vs-seti": "_file_vs-seti"
+        "vs-seti": "_file_vs-seti",
+        "conflict": "_file_conflict"
     }
 }
