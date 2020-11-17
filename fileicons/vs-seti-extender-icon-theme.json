@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "_file_vs-seti": {
+            "iconPath": "./icon.svg"
+        }
+    },
+    "fileExtensions": {
+        "vs-seti": "_file_vs-seti"
+    }
+}

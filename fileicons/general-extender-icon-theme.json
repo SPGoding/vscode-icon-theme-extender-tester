@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "_file_general": {
+            "iconPath": "./icon.svg"
+        }
+    },
+    "fileExtensions": {
+        "general": "_file_general"
+    }
+}

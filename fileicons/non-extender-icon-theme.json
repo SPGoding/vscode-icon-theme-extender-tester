@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "_file_non-extender": {
+            "iconPath": "./icon.svg"
+        }
+    },
+    "fileExtensions": {
+        "non-extender": "_file_non-extender"
+    }
+}

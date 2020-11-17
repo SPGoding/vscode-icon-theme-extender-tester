@@ -1,0 +1,33 @@
+{
+    "name": "icon-theme-extender-test",
+    "publisher": "SPGoding",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "non-extender",
+                "label": "Non-Extender",
+                "path": "./fileicons/non-extender-icon-theme.json"
+            },
+            {
+                "id": "general-extender",
+                "path": "./fileicons/general-extender-icon-theme.json",
+                "extends": {
+                    "all": true
+                }
+            },
+            {
+                "id": "vs-seti-extender",
+                "path": "./fileicons/vs-seti-extender-icon-theme.json",
+                "extends": {
+                    "ids": [
+                        "vs-seti"
+                    ]
+                }
+            }
+        ]
+    }
+}
